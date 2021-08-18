@@ -5,6 +5,8 @@
 
   
   body {
+	max-width: 100%;
+	max-height: 100vh;
 	justify-content: center;
 	height: 90%;
 	background: #fff;
@@ -28,6 +30,7 @@
   }
   
   nav {
+    max-height: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -37,6 +40,7 @@
   }
   
   main {
+	max-height: 100%;
 	background-size: cover;
 	background-color: white;
 	height: 92vh;
@@ -46,16 +50,13 @@
 
   .social{
 	  position: relative;
-	  left: 90%;
+	  top: -350px;
+	  left: 85%;
 	  font-size: 50px;
 	  padding: 5px;
 	  vertical-align: middle;
 	  display: table;
 	  color: #a9a9a9;
-  }
-
-  .likedin:hover{
-    color: green;
   }
 
   .nav-list {
@@ -74,6 +75,7 @@
   }
   
   .mobile-menu div {
+	max-width: 100%;
 	width: 32px;
 	height: 2px;
 	background: #fff;
@@ -151,7 +153,7 @@
 	  
   }
 
-  .line {
+  .line{
 	border-right: 2px solid rgb(255, 255, 255);
 	color: #a9a9a9;
 	font-family: 'Mulish', sans-serif;
@@ -159,8 +161,10 @@
 	margin: 0 auto;
 	white-space: nowrap;
 	overflow: hidden;
-	position: relative;
+	align-items: auto;
+	position: absolute;
 	top: 30%;
+	left: 40%;
   }
 
   .typing-animation {
@@ -213,6 +217,7 @@
 }
 
   .kill{
+	  max-height: 100%;
 	  width: 200px;
 	  height: 250px;
 	  border: none;
@@ -226,20 +231,164 @@
 
   .emojicon img{
 	  width: 350px;
-	  position: absolute;
-	  top: 20%;
+	  position: relative;
+	  top: 14%;
 	  left: 7%;
   }
 
   svg{
+	  max-height: 100%;
 	  width: 700px;
 	  height: 600px;
-	  position: absolute;
+	  position: absolute ;
       left: -5%;
 	  top: 10%;
 	}
 
+@media (min-width:911px) and (max-width:1300px){
+		
+	body{
+			margin: 0%;
+			max-width: 100%;
+			max-width: 100%;
+		}
+		svg{
+			width: 350px;
+			top: -70px;
+			left: 5%;
+		}
+		.emojicon img{
+			width: 250px;
+			top: -50px;
+		}
+
+		 main .line {
+			top: 67%;
+			left: 10%;
+			font-size: 25px;
+		}
+
+		main .sub-t{
+			top: 70%;
+			left: 10%;
+		    font-size: 25px;
+		}
+
+		section .trab{
+			  color: rgb(255, 255, 255);
+              top: 2600px;
+			  font-size: 40px;
+		}
+
+		section slider{
+			top: 2700px;
+			width: 90%;
+			height: 60%;
+			left: 20px;
+		}
+
+		footer .cont{
+              padding:30px 10px;
+			  font-size: 13px;
+		}
+
+	}
+
+
+
+	@media (min-width:644px) and (max-width:910px){
+		body{
+			max-width: 100%;
+			max-width: 100%;
+		}
+		svg{
+			width: 350px;
+			top: -70px;
+			left: 5%;
+		}
+		.emojicon img{
+			width: 250px;
+			top: -50px;
+		}
+
+		 main .line {
+			top: 67%;
+			left: 10%;
+			font-size: 25px;
+		}
+
+		main .sub-t{
+			top: 70%;
+			left: 10%;
+		    font-size: 25px;
+		}
+
+		section .trab{
+			  color: rgb(255, 255, 255);
+              top: 2900px;
+			  font-size: 40px;
+		}
+
+		section slider{
+			top: 3000px;
+			width: 90%;
+			height: 60%;
+			left: 20px;
+		}
+
+		footer .cont{
+              padding:30px 10px;
+			  font-size: 13px;
+		}
+
+	}
+
+	@media (max-width: 644px){
+		body{
+			max-width: 100%;
+			max-width: 100%;
+		}
+		svg{
+			width: 350px;
+			top: -70px;
+		}
+		.emojicon img{
+			width: 250px;
+			top: -50px;
+		}
+
+		 main .line {
+			top: 67%;
+			left: 10%;
+			font-size: 25px;
+		}
+
+		main .sub-t{
+			top: 70%;
+			left: 10%;
+		    font-size: 25px;
+		}
+
+		section .trab{
+			  color: rgb(255, 255, 255);
+              top: 3700px;
+			  font-size: 40px;
+		}
+
+		section slider{
+			top: 3800px;
+			width: 93%;
+			left: 20px;
+		}
+
+		footer .cont{
+              padding:30px 10px;
+			  font-size: 13px;
+		}
+	}
+
 	section{
+		max-height: 100%;
 		background-color: #ffd700;
 		padding: 200px 50px;
 		text-align: center;
@@ -250,10 +399,15 @@
 		
 	}
 
+	.trabalhos{
+		padding: 300px 100px;
+	}
+
 	.trab{
 		font-family: 'Mulish', sans-serif;
-		left: 35%;
-		top: 2490px;
+		left: 37%;
+		text-align: center;
+		top: 2590px;
 		position: absolute;
 	}
 
@@ -261,7 +415,7 @@
 		display: block;
 		width: 50%;
 		height: 50%;
-		top: 2600px;
+		top: 2700px;
 		left: 20%;
 		background-color: #ffd700;
 		overflow: hidden;
@@ -367,4 +521,32 @@
 		color: rgb(23, 88, 230);
 	}
 
-	
+	.botom-whats{
+		background: rgb(17, 194, 17);
+		width: 50px;
+		color: white;
+		height: 50px;
+		border-radius: 20px;
+		position: fixed;
+        bottom: 40px;
+		right: 10px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 50px;
+		font-size: 30px;
+	}
+
+	.botom-top{
+		background: #ffd700;
+		width: 50px;
+		color: white;
+		height: 50px;
+		border-radius: 20px;
+		position: fixed;
+        bottom: 40px;
+		right: 80px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 50px;
+		font-size: 20px;
+	}
