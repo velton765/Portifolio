@@ -25,20 +25,31 @@
           <li><a href="#skill">SKILL</a></li>
           <li><a href="#trabalho">TRABALHOS</a></li>
           <li><a href="#rodape">CONTATOS</a></li>
+          <div class="dark">
+            <label class="switch">
+              <input type="checkbox" onclick="changeMode()">
+              <span class="slider"></span>
+            </label> 
+          </div>
         </ul>
       </nav>
     </header>
     <main>
         <h1 class="line typing-animation" >OI, tudo bem?  </h1> 
         <h2 class="sub-t">  Sou <br> Desenvolvedor <div class="sub-t2">WEB</div> </h2>
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="light-svg">
             <path fill="#FFD700" d="M42.3,-65.7C49.6,-52.8,46.8,-33.6,48.9,-18C51,-2.5,58,9.3,60.4,25.1C62.8,40.8,60.5,60.5,49.7,67.6C38.8,74.8,19.4,69.5,4,64C-11.5,58.6,-22.9,52.9,-35.2,46.2C-47.5,39.5,-60.6,31.7,-69.6,19.1C-78.6,6.4,-83.4,-11.1,-77,-23.2C-70.5,-35.2,-52.8,-41.7,-38.1,-52.1C-23.3,-62.6,-11.7,-76.9,2.9,-80.9C17.5,-84.9,34.9,-78.5,42.3,-65.7Z" transform="translate(100 100)" />
         </svg>
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="dark-svg">
+          <path fill="#FF8800" d="M38.7,-46.6C54.5,-41.8,74.5,-36.3,84.2,-23.4C93.9,-10.4,93.3,9.8,85.1,25.4C76.9,40.9,61.2,51.7,45.7,62.6C30.3,73.6,15.1,84.6,2.1,81.7C-10.9,78.7,-21.7,61.8,-27.8,47.8C-33.9,33.9,-35.2,22.9,-38.1,12.7C-41,2.5,-45.4,-6.8,-47.7,-20.4C-50,-33.9,-50.1,-51.5,-41.8,-58.7C-33.5,-65.9,-16.8,-62.6,-2.6,-59C11.5,-55.3,23,-51.4,38.7,-46.6Z" transform="translate(100 100)" />
+        </svg>
         <div class="emojicon"> <img src="eIdaQXI-removebg-preview.png" alt=""></div>
-        <a href="https://api.whatsapp.com/send?phone=5561985330598&text=programa%C3%A7%C3%A3o" class="social"><i class="fab fa-whatsapp"> </i></a></div> 
+       <form action=""><a href="https://api.whatsapp.com/send?phone=5561985330598&text=programa%C3%A7%C3%A3o" class="social"><i class="fab fa-whatsapp"> </i></a></div> 
         <a href="https://www.linkedin.com/in/veltonL0pes/" class="social"><i class="fab fa-linkedin-in"></i></a>
         <a href="https://github.com/velton765/" class="social"><i class="fab fa-github"></i></a>
         <a href="https://instagram.com/velton_lopesss?utm_medium=copy_link" class="social"><i class="fab fa-instagram"></i></a>
+      </form>
+        
      </main>
      
      <section class="sobre" id="sobre">
@@ -60,7 +71,7 @@
      </section>
      <a href="https://api.whatsapp.com/send?phone=5561985330598&text=programa%C3%A7%C3%A3o" class="botom-whats"><i class="fab fa-whatsapp"> </i></a> 
      <section class="trabalhos" id="trabalho">
-        <h1 class="trab">TRABALHOS</h1> <br> <br>
+        <h1 class="trab">PROJETOS</h1> <br> <br>
             <slider>
              <slide><p> PizzaFood</p></slide>   
              <slide><p> E-commerce</p></slide>  
@@ -71,14 +82,45 @@
     
 <a href="#" class="botom-top"><i class="fas fa-arrow-up"></i></a>
      <footer class="rodape" id="rodape">
-       <h1>  CONTATOS</h1> <br> <br> <br> <br>
-         <a class="cont" href="https://github.com/velton765/"><strong class="git">GITHUB</strong> </a>
+       <h2>  OPA TUDO BOM ? 🙃</h2> 
+       <h1>Bora troca uma ideia?</h1> <br>
+         
+         <div class="form-e">
+       <form action="https://formspree.io/f/xbjqppzp" method="POST" id="my-form">
+
+        <div class="form-group">
+          <label for="firstName"><strong>Nome</strong> </label>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+  
+        <div class="form-group">
+          <label for="email"><strong>Email</strong> </label>
+          <input type="email" id="email" name="email">
+        </div>
+  
+        <div class="form-group">
+          <label for="massage" class="menssage"><strong>Mensagem</strong> </label>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        </div>
+  
+        <button type="submit">Enviar</button>
+
+      </form><div id="status"></div>
+      </div><br> <br><br><br><br><br><br><br><br><br><br><br><br> 
+      <a class="cont" href="https://github.com/velton765/"><strong class="git">GITHUB</strong> </a>
          <a class="cont" href="https://instagram.com/velton_lopesss?utm_medium=copy_link"><strong class="insta">INSTAGRAM</strong></a>
          <a class="cont" href="https://api.whatsapp.com/send?phone=5561985330598&text=programa%C3%A7%C3%A3o"><strong class="whats">WHATSAPP</strong></a>
-         <a class="cont" href="https://www.linkedin.com/in/veltonL0pes/"><strong class="link">LINKEDIN</strong></a>
+         <a class="cont" href="https://www.linkedin.com/in/veltonL0pes/"><strong class="link">LINKEDIN</strong></a> <br> <br> 
+
+         <br> <p class="footer__copy">© 2021<a class="c" href="https://api.whatsapp.com/send?phone=5561985330598&text=programa%C3%A7%C3%A3o">Velton Lopes.</a>  All right reserved</p>
      </footer>
 
-     
+   <script>
+   function changeMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+   }
+   </script>  
     <script src="mobile-navbar.js"></script>
   </body>
 </html>
