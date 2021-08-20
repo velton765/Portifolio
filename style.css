@@ -9,12 +9,12 @@
 	max-height: 100vh;
 	justify-content: center;
 	height: 90%;
-	background: #fff;
+	background:rgb(255, 255, 255);
   }
 
 
   a {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	transition: 0.3s;
   }
@@ -30,7 +30,7 @@
   }
   
   nav {
-    max-height: 100%;
+    max-width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -42,7 +42,7 @@
   main {
 	max-height: 100%;
 	background-size: cover;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	height: 92vh;
 	font-family: 'Mulish', sans-serif;
     
@@ -75,7 +75,6 @@
   }
   
   .mobile-menu div {
-	max-width: 100%;
 	width: 32px;
 	height: 2px;
 	background: #fff;
@@ -136,6 +135,11 @@
 	transform: rotate(45deg) translate(-5px, -7px);
   }
 
+  .dark-svg{
+	  left: -120px;
+	  display: none;
+  }
+
   .sub-t{
 	color: #a9a9a9; 
 	font-size: 40px;
@@ -154,7 +158,7 @@
   }
 
   .line{
-	border-right: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(0, 0, 0);
 	color: #a9a9a9;
 	font-family: 'Mulish', sans-serif;
 	font-size: 40px;
@@ -168,8 +172,8 @@
   }
 
   .typing-animation {
-	animation: blinkCursor 500ms steps(40) infinite normal,
-	  typing 2s steps(40) 1s normal both;
+	animation: blinkCursor 500ms steps(60) infinite normal,
+	  typing 2s steps(60) 1s normal both;
   }
 
   @keyframes typing {
@@ -183,7 +187,7 @@
 
   @keyframes blinkCursor {
 	from {
-	  border-right-color: rgb(255, 255, 255);
+	  border-right-color: rgb(0, 0, 0);
 	}
 	to {
 	  border-right-color: transparent;
@@ -257,6 +261,11 @@
 			top: -70px;
 			left: 5%;
 		}
+
+		.dark-svg{
+			left: -20px ;
+		}
+
 		.emojicon img{
 			width: 250px;
 			top: -50px;
@@ -306,6 +315,11 @@
 			top: -70px;
 			left: 5%;
 		}
+
+		.dark-svg{
+			left: -20px ;
+		}
+
 		.emojicon img{
 			width: 250px;
 			top: -50px;
@@ -341,6 +355,10 @@
 			  font-size: 13px;
 		}
 
+		.form-e{
+			left: 30%;
+		}
+
 	}
 
 	@media (max-width: 644px){
@@ -352,6 +370,12 @@
 			width: 350px;
 			top: -70px;
 		}
+
+		.dark-svg{
+			left: -20px ;
+		}
+
+
 		.emojicon img{
 			width: 250px;
 			top: -50px;
@@ -384,6 +408,10 @@
 		footer .cont{
               padding:30px 10px;
 			  font-size: 13px;
+		}
+
+		footer .form-e{
+			left: 30px;
 		}
 	}
 
@@ -550,3 +578,209 @@
 		line-height: 50px;
 		font-size: 20px;
 	}
+	
+
+	.switch {
+		left: 50px;
+		position: relative;
+		display: inline-block;
+		width: 50px;
+		height: 24px;
+		
+	  }
+	  .switch input {
+		display: none;
+	  }
+	  .slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #ccc;
+		border-radius: 34px;
+		transition: .4s;
+	  }
+	  .slider:before {
+		content: "";
+		position: absolute;
+		height: 16px;
+		width: 15px;
+		left: 4px;
+		bottom: 4px;
+		background: rgb(255, 255, 255);
+		border-radius: 50%;
+		transition: .4s;
+	  }
+	  input:checked + .slider {
+		background: #313030;
+	  }
+	  input:checked + .slider:before {
+		transform: translateX(26px);
+	  }
+
+	.dark h1 {
+		font-family: 'Mulish', sans-serif;
+		font-size: 15px;
+		color: white;
+	}
+
+	.dark-mode nav {
+      background: rgb(255, 136, 0);
+	}
+
+	.dark-mode .nav-list{
+	  background: rgb(255, 136, 0);
+	}
+
+	.dark-mode .social {
+		color: whitesmoke;
+	}
+
+	.dark-mode main {
+		background: #313030;
+	  }
+
+	  .dark-mode .light-svg{
+		  display: none;
+	  }
+
+	  .dark-mode .dark-svg{
+		  display: inline;
+	  }
+
+	  .dark-mode h1 {
+		font-family: 'Mulish', sans-serif;
+		color: whitesmoke;
+	  }
+
+	  .dark-mode h2 {
+		color: whitesmoke;
+	  }
+
+	  .dark-mode .sub-t2{
+		  background: rgb(255, 136, 0);
+		  color: whitesmoke;
+	  }
+
+	  .dark-mode .sobre{
+		background: rgb(255, 136, 0);
+		color: whitesmoke;
+	}
+
+	.dark-mode .skill{
+		background: #313030;
+		color: whitesmoke;
+	}
+    
+	.dark-mode .trabalhos{
+		background: rgb(255, 136, 0);
+		color: whitesmoke;
+	}
+
+	.dark-mode slider{
+		background-color: rgb(255, 136, 0);
+	}
+
+	.dark-mode .rodape{
+		background: #313030;
+		color: whitesmoke;
+	}
+
+	.dark-mode .cont{
+		color: whitesmoke;
+	}
+
+	.dark-mode .botom-top{
+		background-color: rgb(255, 136, 0);
+	}
+
+	.dark-mode .form-e{
+		color: whitesmoke;
+	}
+
+	.dark-mode input{
+		color: #a9a9a9;
+	}
+
+	.form-e{
+		width: 300px;
+		height: 400px;
+		left: 40%;
+		position: relative;
+	}
+
+	.menssage{
+		width: 200px;
+	}
+
+	.form-group {
+		width: 300px;
+		margin-top: 20px;
+		font-size: 20px;
+		left: 500px;
+	  }
+	  .form-group input,
+	  .form-group textarea {
+		width: 300px;
+		padding: 5px;
+		font-size: 18px;
+		border: 1px solid rgba(128, 128, 128, 0.199);
+		margin-top: 5px;
+	  }
+	  
+	  textarea {
+		resize: vertical;
+	  }
+	  button[type="submit"] {
+		width: 300px;
+		border: none;
+		outline: none;
+		padding: 20px;
+		font-size: 24px;
+		border-radius: 8px;
+		font-family: 'Mulish', sans-serif;
+		color: #ffd700;
+		text-align: center;
+		cursor: pointer;
+		margin-top: 10px;
+		transition: 0.3s ease background-color;
+	  }
+	  button[type="submit"]:hover {
+		background-color: rgb(126, 131, 134);
+	  }
+	  #status {
+		width: 190px;
+		max-width: 500px;
+		text-align: center;
+		padding: 7px;
+		margin: 0 auto;
+	  }
+	  #status.success {
+		background-color: rgb(211, 250, 153);
+		animation: status 4s ease forwards;
+	  }
+	  #status.error {
+		background-color: rgb(250, 129, 92);
+		color: white;
+		animation: status 4s ease forwards;
+	  }
+	  @keyframes status {
+		0% {
+		  opacity: 1;
+		  pointer-events: all;
+		}
+		90% {
+		  opacity: 1;
+		  pointer-events: all;
+		}
+		100% {
+		  opacity: 0;
+		  pointer-events: none;
+		}
+	  }
+
+	  .c{
+		  color: #ffd700;
+	  }
