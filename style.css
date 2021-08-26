@@ -66,7 +66,7 @@
   
   .nav-list li {
 	letter-spacing: 3px;
-	margin-left: 32px;
+	margin-left: 25px;
   }
   
   .mobile-menu {
@@ -87,6 +87,7 @@
 	  overflow-x: hidden;
 	}
 	.nav-list {
+      max-width: 100%;		
 	  position: absolute;
 	  top: 8vh;
 	  right: 0;
@@ -252,6 +253,7 @@
 @media (min-width:911px) and (max-width:1300px){
 		
 	body{
+		    padding: 0%;
 			margin: 0%;
 			max-width: 100%;
 			max-width: 100%;
@@ -361,7 +363,7 @@
 
 	}
 
-	@media (max-width: 644px){
+	@media (min-width: 350px) and (max-width: 644px){
 		body{
 			max-width: 100%;
 			max-width: 100%;
@@ -411,7 +413,87 @@
 		}
 
 		footer .form-e{
-			left: 30px;
+			left: 20px ;
+		}
+	}
+
+	@media (min-width:200px) and (max-width: 350px){
+	 
+		body{
+			max-width: 100%;
+			max-width: 100%;
+		}
+
+		svg{
+			width: 250px;
+			top: -77px;
+		}
+
+		main .social{
+			font-size: 30px;
+			top: -50%;
+		}
+
+		.sb{
+			font-size: 30px;
+		}
+
+		.sobre{
+			background-color: blue solid;
+			color: #6d4702;
+		}
+
+		.conh{
+		   font-size: 30px;
+		}
+
+	    .trabalhos .trab{
+			color: rgb(0, 0, 0);
+			top: 3900px;
+			font-size: 30px;
+		}
+
+		.trabalhos slider{
+			top: 4000px;
+			width: 93%;
+			left: 10px;
+		}
+
+		.dark-svg{
+			left: -20px ;
+		}
+
+
+		.emojicon img{
+			width: 170px;
+			top: -40px;
+		}
+
+		main .line {
+			top: 67%;
+			left: 10%;
+			font-size: 20px;
+		}
+
+		main .sub-t{
+			top: 70%;
+			left: 10%;
+			font-size: 17px;
+		}
+
+		.sub-t2{
+			font-size: 17px;
+			left: -10%;
+		}
+
+
+		footer .cont{
+			padding:30px 10px;
+			font-size: 13px;
+		}
+
+		footer .form-e{
+			left: -55px ;
 		}
 	}
 
@@ -423,7 +505,6 @@
 		font-family: 'Mulish', sans-serif;
         color: white;
 		font-size: 30px;
-		
 		
 	}
 
@@ -448,6 +529,7 @@
 		background-color: #ffd700;
 		overflow: hidden;
 		position: absolute;
+		border-radius: 10px;
 	}
 
 	slider > *{
@@ -463,29 +545,29 @@
 	slide:nth-child(1){
 		left: 0%;
 		animation-delay: -1s;
-		background-image: url(pizzaria.jpeg) ;
+		background-image: url(img/pizza.jpeg) ;
 		background-size: cover;
 		background-position: center;
 	}
 
 	slide:nth-child(2){
 		animation-delay: 2s;
-		background-image: url(viagem.jpeg) ;
+		background-image: url(img/viagem.jpeg) ;
 		background-size: cover;
 		background-position: center;
 	}
 
 	slide:nth-child(3){
 		animation-delay: 5s;
-		background-image: url(ecommerce.jpeg) ;
+		background-image: url(img/turismo.jpeg) ;
 		background-size: cover;
 		background-position: center;
 	}
 
 	slide:nth-child(4){
-		left: 0%;
+		
 		animation-delay: 8s;
-		background-image: url(netflix.jpeg) ;
+		background-image: url(img/pizza.jpeg) ;
 		background-size: cover;
 		background-position: center;
 	}
@@ -784,3 +866,4 @@
 	  .c{
 		  color: #ffd700;
 	  }
+	  
