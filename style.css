@@ -469,7 +469,7 @@
 		}
 
 		main .line {
-			top: 70%;
+			top: 80%;
 			left: 10%;
 			font-size: 20px;
 		}
@@ -477,11 +477,11 @@
 		main .sub-t{
 			top: 70%;
 			left: 10%;
-			font-size: 17px;
+			font-size: 20px;
 		}
 
 		.sub-t2{
-			font-size: 17px;
+			font-size: 20px;
 			left: -10%;
 		}
 
