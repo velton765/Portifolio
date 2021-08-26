@@ -431,7 +431,7 @@
 
 		main .social{
 			font-size: 30px;
-			top: -40%;
+			top: -30%;
 		}
 
 		.sb{
@@ -439,8 +439,7 @@
 		}
 
 		.sobre{
-			background-color: blue solid;
-			color: #6d4702;
+			color: #ffffff;
 		}
 
 		.conh{
@@ -448,7 +447,7 @@
 		}
 
 	    .trabalhos .trab{
-			color: rgb(0, 0, 0);
+			color: rgb(255, 255, 255);
 			top: 3900px;
 			font-size: 30px;
 		}
@@ -493,7 +492,7 @@
 		}
 
 		footer .form-e{
-			left: -55px ;
+			left: -40px ;
 		}
 	}
 
