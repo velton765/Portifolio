@@ -397,7 +397,7 @@
 
 		section .trab{
 			  color: rgb(255, 255, 255);
-              top: 3700px;
+                           top: 3700px;
 			  font-size: 40px;
 		}
 
@@ -431,7 +431,7 @@
 
 		main .social{
 			font-size: 30px;
-			top: -50%;
+			top: -40%;
 		}
 
 		.sb{
@@ -466,11 +466,11 @@
 
 		.emojicon img{
 			width: 170px;
-			top: -40px;
+			top: -30px;
 		}
 
 		main .line {
-			top: 67%;
+			top: 70%;
 			left: 10%;
 			font-size: 20px;
 		}
