@@ -363,7 +363,7 @@
 
 	}
 
-	@media (min-width: 350px) and (max-width: 644px){
+	@media (min-width: 461px) and (max-width: 644px){
 		body{
 			max-width: 100%;
 			max-width: 100%;
@@ -417,7 +417,7 @@
 		}
 	}
 
-	@media (min-width:200px) and (max-width: 350px){
+	@media (min-width:200px) and (max-width: 460px){
 	 
 		body{
 			max-width: 100%;
