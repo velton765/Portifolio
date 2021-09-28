@@ -15,10 +15,6 @@
 	
   }
 
-  :target {
-  scroll-margin-top: .8em;
-  }
-
   a {
 	color: rgb(255, 255, 255);
 	text-decoration: none;
@@ -43,6 +39,7 @@
 	font-family: 'Mulish', sans-serif;
 	background: #ffd700;
 	height: 8vh;
+	scroll-margin-top: .8em;
   }
   
   main {
@@ -51,6 +48,7 @@
 	background-color: rgb(255, 255, 255);
 	height: 92vh;
 	font-family: 'Mulish', sans-serif;
+	scroll-margin-top: .8em;  
     
   }
 
