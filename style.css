@@ -15,6 +15,9 @@
 	
   }
 
+  :target {
+  scroll-margin-top: .8em;
+  }
 
   a {
 	color: rgb(255, 255, 255);
