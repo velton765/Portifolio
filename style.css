@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	scroll-behavior: smooth;
   }
 
   
@@ -39,7 +38,6 @@
 	font-family: 'Mulish', sans-serif;
 	background: #ffd700;
 	height: 8vh;
-	scroll-margin-top: .8em;
   }
   
   main {
@@ -47,8 +45,7 @@
 	background-size: cover;
 	background-color: rgb(255, 255, 255);
 	height: 92vh;
-	font-family: 'Mulish', sans-serif;
-	scroll-margin-top: .8em;  
+	font-family: 'Mulish', sans-serif; 
     
   }
 
