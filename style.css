@@ -652,6 +652,7 @@
 		height: 50px;
 		border-radius: 20px;
 		position: fixed;
+		scroll-behavior: smooth;
         bottom: 40px;
 		right: 80px;
 		text-decoration: none;
